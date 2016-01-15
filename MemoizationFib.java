@@ -1,6 +1,8 @@
 /*
-This program uses memoization (https://en.wikipedia.org/wiki/Memoization) to optimize the fibonacci sequence's
-time complexity. It can handle any int `n` so long as the JVM has a large enough stack.
+    This program uses memoization (https://en.wikipedia.org/wiki/Memoization) to optimize the fibonacci sequence's
+    time complexity. It can handle any int `n` so long as the JVM has a large enough stack.
+
+    Copyright (C) 2016  Zachary Taylor | ztaylor54@gmail.com
  */
 
 import java.math.BigInteger;
@@ -68,5 +70,3 @@ public class MemoizationFib {
         return result; //return whether we've computed it, and if we have, return the index
     }
 }
-
-/*  Copyright (C) 2016  Zachary Taylor | ztaylor54@gmail.com  */
